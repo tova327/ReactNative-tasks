@@ -1,5 +1,16 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#232323",
+          "image": "./assets/task2.png",
+          
+          "imageWidth": 200
+        }
+      ]
+    ],
     "name": "ToviYakovson",
     "slug": "ToviYakovson",
     "version": "1.0.0",
@@ -8,7 +19,7 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/task2.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +28,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/task2.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.tova327.ToviYakovson"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4973c08f-15b2-45a2-8429-9895929d5ab5"
+      }
     }
   }
 }
